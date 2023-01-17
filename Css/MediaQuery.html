@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>media queary</title>
+    
+ <style>
+
+*{
+    text-align: center;
+    box-sizing: border-box;
+  }
+.box-main {
+  overflow: hidden;
+  background-color: rgba(210, 105, 30, 0.726);
+  box-shadow: .4em .4em 2em;
+}
+
+.box {
+  float: left;
+  background-color: rgba(255, 255, 255, 0.685);
+}
+
+
+@media screen and (min-width: 1008px) {
+  .box {
+    width: 25%;
+    height: 80px;
+    font-size: 30px;
+    border: 1px solid white;
+padding-top:15px;
+}
+}
+@media screen and (max-width: 1007px) and (min-width: 641px) {
+  .box {
+    width: 50%;
+    height: 80px;
+    font-size: 30px;
+    border: 1px solid white;
+    padding-top:15px;
+
+  }
+}
+@media screen and (max-width: 640px) {
+  .box {
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    border: 1px solid white;
+    padding-top:15px;
+
+
+  }
+}
+
+
+
+ </style>
+</head>
+<body>
+
+    <div class="box-main">
+        <h1 class="heading">Subjects is here i am akash</h1>
+        <div class="box ">English is a short subjet</div>
+        <div class="box">accounts a short subjet</div>
+        <div class="box">hindi a short subjet</div>
+        <div class="box">Mathsis a short subjet</div>
+    </div>
+    
+    
+
+
+
+</body>
+</html>
