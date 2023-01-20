@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        .body{
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+.container{
+    width: 900px;
+    border: 3px solid rgb(218, 21, 159);
+margin: auto;
+background-color: aquamarine;
+
+
+}
+.item{
+     border:3px solid grey;
+     margin: 12px 3px;
+     padding: 12px 3px;
+     background-color: rgb(32, 226, 226);
+}
+#fruits{
+    float: left;
+    width: 50%;
+
+}
+#computer{
+    float: right;
+    float: top;
+    width: 50%;
+    margin-right: auto;
+
+}
+#stationary{
+    /* float: left; */
+    clear:both;
+    width: 100%;
+margin-right: auto;
+margin-block-end: 60px;
+margin: block right 100px;
+
+}
+p,h3{ 
+    text-align: center;
+    text-align: both;
+
+}
+h1{
+    margin: auto;
+    width: 455px;
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>welcome to my store</h2>
+<div id="fruits" class="item">
+    <h3> fruits  </h3>
+<p id="fruitpara" class="oara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ipsum. </p>
+</div>
+
+    <div id="computer" class="item">
+        <h3> computer  </h3>
+    <p id="computerpara" class="oara">Lorem, ipsum dolor sit amet consecte </p>
+    </div>
+
+        <div id="stationary" class="item">
+            <h3> stationary  </h3>
+        <p id="stationarypara" class="oara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, rem. </p>
+        </div>
+
+
+</div>
+    
+</body>
+</html>
