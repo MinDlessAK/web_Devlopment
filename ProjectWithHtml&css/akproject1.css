@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: o;
+}
+.container{
+    height: 100vh;
+    width:100% ;
+    background-image: url(ak/background.png);
+background-position: center;
+background-size: cover;
+padding-left:5%;
+padding-right:5%;
+box-sizing:border-box ;
+position: relative;
+
+}
+.navbar{
+    width: 100%;
+    height: 15hv;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+nav{
+    position: sticky;
+    font-size: 60px;
+}
+.logo img{
+    width:200px ;
+    cursor: pointer;
+    float: left;
+}
+.cart{
+    width: 40px;
+    cursor: pointer;
+   
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin:0px 20px;
+
+}
+nav ul li{
+     text-decoration: none;
+     color: #333;
+}
+nav ul li a .havor{
+    color: rgba(216, 24, 184, 0.918);
+
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+color: #232d60;
+}
+.content p{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+color: #6a7199;
+}
+.content {
+    margin-left: 10%;
+    margin-top:10% ;
+}
+.content .btn{
+    display: inline-block;
+  border-radius:6px;
+  padding: 10px 20px;
+ box-sizing: border-box ;
+ text-decoration: none;
+  color: #fff;
+  box-shadow:3px 8px 22px rgba(94, 28, 68,0.15) ;
+    background: linear-gradient(45deg , #87adfe,#ff77cd);
+}
+.arrow-icons{
+    margin-top: 40px;
+    display: flex;
+
+}
+.arrow-icons img{
+    margin-right: 25px;
+   width: 40px;
+}
+.feature{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+.socail-links{
+  
+    position:absolute;
+    bottom: 180px;
+     
+}
+.socail-links a{
+
+    text-decoration:none ;
+    color: #6a7199;
+    padding-left: 14px;
+    font-size: 35px;
+
+
+}
+.socail-links a instagram{
+    float: left;
+
+}
