@@ -1,0 +1,165 @@
+*{
+    margin: 0;;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-image: url(desert/background.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    /* cover mean to dont repeat  */
+    background-size: cover;
+    padding-right: 5%;
+    padding-left: 5%;
+    /* padding will work but scroll bar will hide bcz of border box */
+    box-sizing:border-box ;
+    position: relative;
+    padding-left: 8%;
+    padding-right:8%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+   
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.menu_icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul li {
+    list-style: none;
+    margin-left: 60px;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration:double;
+    color: #fff;
+    font-size: 15px;
+}
+.row{
+    display: block;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    margin-top: 15%;
+    margin-right: 45%;
+  
+}
+h1{
+    color:#fff;
+    font-size:100px;
+
+}
+p{
+    color: #fff;
+    font: size 20px;
+    line-height: 15px;
+}
+button{
+ 
+ 
+    width: 150px;
+    color: #000;
+    font-size: 12px;
+    padding:12px 0;
+    outline: none;
+    border-radius: 20px;
+    border: 0;
+    background-color: #fff;
+  margin-top: 30px;
+}
+
+
+
+.cart3{
+    
+    background-image: url(Desert/pic-3.png);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    width: 150px;
+    height: 180px;
+ margin-top: 400px;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 15px;
+transition:transform 0.5s;
+}
+.cart4{
+    
+    background-image: url(Desert/pic-4.png);
+    background-position: center;
+    background-size: cover;
+   float: right;
+    width: 150px;
+    height: 180px;
+   margin-bottom: 400px;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 15px;
+transition:transform 0.5s;
+}
+.cart1{
+
+    float: right;
+    width: 150px;
+    height: 180px;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(Desert/pic-1.png);
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+   
+}
+.cart2{
+   
+   
+    background-image: url(Desert/pic-2.png);
+    background-position: center;
+    background-size: cover;
+ float:right;
+    width: 150px;
+    height: 180px;
+    margin-right: 400px;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 15px;
+  transition:transform 0.5s;  
+}
+.cart1:hover{
+    transform: translateY(-10px);
+}
+.cart2:hover{
+    transform: translateY(-10px);
+}
+.cart3:hover{
+    transform: translateY(-10px);
+}
+.cart4:hover{
+    transform: translateY(-10px);
+}
