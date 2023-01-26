@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: o;
+}
+.container{
+    height: 100vh;
+    width:100% ;
+    background-image: url(yogo/wp2777615.jpg);
+background-position: center;
+background-size: cover;
+padding-left:5%;
+padding-right:5%;
+box-sizing:border-box ;
+position: relative;
+
+}
+.navbar{
+    width: 100%;
+    height: 15hv;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+nav{
+    position: sticky;
+    font-size: 40px;
+  
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin:0px 20px;
+    
+
+}
+nav ul li a{
+     text-decoration: none;
+    color: white;
+   
+}
+
+nav ul{
+    margin-left: 900px;
+}
+.col-md-6{
+    margin-top: 4%;
+    color: white;
+    margin-right: 45%;
+}
+.col-md-6 h1{
+    margin:80px 0 50px;
+    font-weight: 600;
+    font-size: 100px;
+    border-bottom: 30px solid white;
+    
+}
+.col-md-6 p{
+    font-size: 30px;
+}
+.feature{
+  height: 80%;
+  position: absolute;
+    bottom: 0;
+    right: 160px;
+   
+
+}
+.col-md-6 a{
+    padding: 12px;
+    width: 150px;
+display: inline-block;
+
+text-decoration: none;
+color: white;
+border: 5px solid white;
+border-radius: 12px ;
+text-align: center;
+font-weight: bold;
+margin-top: 30px;
+font-size: 14px;
+}
+.col-md-6 a:havor{
+color: white;
+}
+.express{
+    background-color: white;
+    color:#000 !important;
+    margin-right: 5px;
+}
+/* ------service---------- */
+.service{
+    margin: 75px 0;
+}
+.tittle{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight:40px;
+    font-size: 60px;
+}
+.subtittle{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 30px;
+    
+}
+.service-box{
+    padding: 0 120px;
+    cursor: pointer;
+background-color: blueviolet;
+margin-left: 10px;
+border-radius: 10px;
+height: 500px;
+
+}
+.service-box img{
+    width: 100px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+
+}
+.service-box h6{
+    margin-bottom: 40px;
+    font-size:40px;
+color: white !important;
+}
+
+.service-box p{
+   color: #000;
+    font-size: 20px;
+  color: white !important;
+  
+}
+.row{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 40px;
+   
+}
+
