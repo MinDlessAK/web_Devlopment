@@ -1,11 +1,10 @@
 
-
+/*
 // 1. Ways to print in JavaScript
 // console.log("Hello World");
 // alert("me");
 // document.write("this is document write")
-
-
+*/
 
 
 /*
@@ -22,11 +21,9 @@ console.log(a+b);
 
 
 /*
-
 //DataTypes In java script
+
 //number
-
-
 var number1 =56;
 var number2 =45;
 
