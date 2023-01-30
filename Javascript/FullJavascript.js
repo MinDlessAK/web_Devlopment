@@ -112,3 +112,19 @@ console.log(arr)
 // console.log(!false);
 // console.log(!true);
 */
+
+
+// Conditionals in JavaScript
+
+var age = 41;
+//Single if statement
+if(age > 18){
+   console.log('You can drink rasna water');
+ }
+//if - else statement
+if(age > 18){
+    console.log('You can drink rasna water');
+}
+else{
+    console.log('You cannot drink rasna water');
+}
