@@ -181,3 +181,18 @@ console.log("End of ladder");
 //     j++;
 // } while (j < arr.length);
 */
+
+
+
+/*
+// Array in java script
+ // let myArr = ["Fan", "Camera", 34, null, true];
+// Array Methods
+// console.log(myArr.length);
+// myArr.pop();
+// myArr.push("harry")
+// myArr.shift()
+// const newLen = myArr.unshift("Harry")
+// console.log(newLen);
+// console.log(myArr);
+*/
