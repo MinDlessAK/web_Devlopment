@@ -197,9 +197,6 @@ console.log("End of ladder");
 // console.log(myArr);
 */
 
-
-
-
 // String Methods in JavaScript
 /*
 let myLovelyString = "Harry is a good boy good good Harry";
@@ -212,3 +209,10 @@ d = myLovelyString.replace("Harry", "Rohan");
  d = d.replace("good", "bad");
  console.log(d, myLovelyString)
 */
+//dates is javascript
+ //let myDate = new Date();
+// console.log(myDate.getTime());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getDay());
+// console.log(myDate.getMinutes());
+// console.log(myDate.getHours());
