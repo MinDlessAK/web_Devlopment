@@ -309,3 +309,24 @@ logKaro = ()=>{
 // clr = setInterval(logKaro, 2000);
 // use clearInterval(clr)/clearTimeout(clr) to cancel setInterval/setTimeout
 */
+
+
+
+// JavaScript localStorage
+// localStorage.setItem('name', 'harry') 
+// localStorage 
+// localStorage.getItem('name')
+// localStorage.removeItem('name')
+// localStorage.clear();
+
+// Json 
+// obj = {name: "harry", length: 1, a: {this: 'tha"t'}}
+// jso = JSON.stringify(obj);
+// console.log(typeof jso)
+// console.log(jso)
+// parsed = JSON.parse(`{"name":"harry","length":1,"a":{"this":"that"}}`)
+// console.log(parsed);
+
+// Template literals - Backticks
+a = 34;
+console.log(`this is my ${a}`)
