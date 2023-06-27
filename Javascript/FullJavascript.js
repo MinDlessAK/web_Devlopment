@@ -258,7 +258,6 @@ tn[0].replaceChild(createdElement2, createdElement);
 
 
 
-
 /*
 // Events in JavaScript
 // firstContainer.addEventListener('click', function(){
