@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    width: 100vh;
+}
+header ul li{
+    list-style: none;
+}
+header #nb{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 30px;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+header #sb{
+   
+    margin-top: 100px;
+    margin-left: 30px;
+    border: 1px solid black;
+}
+/* .w{
+  width: 600px;
+   height: 35px;
+} */
+
