@@ -21,7 +21,7 @@ a:hover{
 }
 
 header{
-    display: flex;
+    display:flex;
     align-items: center;
     padding: 15px 0;
     
@@ -47,10 +47,28 @@ header a{
 }
 #main{
     display: flex;
+    
+
+}
+article{
+    padding: 10px;
 }
 aside{
     flex: 0 0 20vw;
-     
+    padding: 10px;
+}
+aside ul{
+    list-style: none;
+    padding: 0px;
+
+}
+aside ul a{
+
+background: #566c2b;
+padding: 10px;
+display: block;
+border-bottom: 1px solid grey;
+
 }
 .services-container{
     display: flex;
@@ -64,4 +82,10 @@ aside{
 }
 .service-box img{
     width: 100%;
+}
+footer{
+    background: #566c2b;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
 }
