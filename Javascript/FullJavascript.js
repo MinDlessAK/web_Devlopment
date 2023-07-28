@@ -327,5 +327,31 @@ logKaro = ()=>{
 // console.log(parsed);
 
 // Template literals - Backticks
-a = 34;
-console.log(`this is my ${a}`)
+// a = 34;
+// console.log(`this is my ${a}`)
+
+//oops
+
+/*
+
+//changing prototype
+ let a={
+    name:"harry",
+    age:25
+ }
+ console.log(a)
+ let p={
+    run:()=>{
+        alert("aksh")
+    }
+ }
+ p.__proto__={
+    nam:"jackie"
+
+ }
+a.__proto__=p
+a.run()
+console.log(a.nam)
+*/
+
+
