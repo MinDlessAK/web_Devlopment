@@ -335,6 +335,13 @@ logKaro = ()=>{
 /*
 
 //changing prototype
+
+//whenever a function is created the prototype property is added to that function automatically. 
+//This property is a prototype object that holds a constructor property.
+//ClassName.prototype.methodName  
+
+
+
  let a={
     name:"harry",
     age:25
