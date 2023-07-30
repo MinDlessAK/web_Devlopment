@@ -234,7 +234,7 @@ elemClass[0].classList.add("text-success")
 // console.log(elem.innerHTML);
 // console.log(elem.innerText); 
 
-/ console.log(elemClass[0].innerHTML);
+// console.log(elemClass[0].innerHTML);
 // console.log(elemClass[0].innerText); 
 tn = document.getElementsByTagName('div')
 // console.log(tn)
@@ -361,4 +361,179 @@ a.run()
 console.log(a.nam)
 */
 
+/*
+//classes & object
+   class RailwayForm{
+    submit(){
+        alert(this.name+"form submitted"+this.traino)
+    }
+    cancel(){
+        alert(this.name+"this form is cancelled"+this.traino)
+    }
+    fill(pname,no){
+        this.name=pname;
+        this.traino=no;
+    }
+   }
+   let akash=new RailwayForm()
+   akash.fill("akash",11324);
+   let rohan=new RailwayForm()
+   rohan.fill("Rohan",90384)
+
+   akash.submit()
+   rohan.submit()
+   akash.cancel()
+   */
+
+
+/*
+//constructor
+   class RailwayForm{
+    constructor(name,traino,address){
+        console.log("constructor"+name+" "+traino)
+        this.name=name;
+        this.traino=traino
+        this.address=address;
+
+    }
+    submit(){
+        alert(this.name+"form submitted"+this.traino)
+    }
+    cancel(){
+        alert(this.name+"this form is cancelled"+this.traino)
+    }
+   
+   }
+   let akash=new RailwayForm("akash",11324,"shalimar enclave dhakoli")
+
+   let rohan=new RailwayForm("Rohan",90384,"chandighar punjab")
+
+
+   akash.submit()
+   rohan.submit()
+   akash.cancel()
+   */
+
+
+
+   /*
+
+//inheritance
+
+   //extends is used to inherite class
+
+   class Animal{
+
+    constructor(name,color){
+        this.name=name;
+        this.color=color;
+    }
+    run(){
+        console.log(this.name+"is running")
+    }
+   shout(){
+        console.log(this.name+"is shouting")
+    }
+   
+   }
+   class Money extends Animal{
+    eatBanana(){
+        console.log(this.name+' is eating banana')
+    }
+    hide(){
+        console.log(`${this.name} is hiding`)
+    }
+   }
+   
+let anil=new  Animal('bruno','white')
+let amar=new Money('chinpa','orange')
+
+anil.shout();
+amar.eatBanana();
+amar.hide();
+*/
+
+
+/*
+//static
+class Car{
+    static numberofcar=0;
+    constructor(model) {
+        this.model=model;
+        Car.numberofcar+=1;
+    }
+}
+const car1=new Car("mustamg")
+const car2=new Car("mustam")
+const car3=new Car("musta")
+const car4=new Car("must")
+
+console.log(Car.numberofcar)
+*/
+
+
+/*
+//super
+// it invoke parent class constructor
+class animal{
+
+    constructor(name,age,runspeed){
+        this.name=name;
+        this.age=age;
+        this.runspeed=runspeed;
+    }
+}
+class rabbit extends animal{
+    constructor(name,age,runspeed){
+        super(name,age,runspeed)
+    }
+}
+class fish extends animal{
+    constructor(name,age,runspeed){
+        super(name,age,runspeed)
+    }
+
+}
+class hawk extends animal{
+    constructor(name,age,runspeed){
+        super(name,age,runspeed)
+    }
+}
+
+const rabbit1 =new rabbit("rabbit",1,40)
+const fish1 =new fish("fish",2,45)
+const hawk1 =new hawk("hawk",1,50) 
+
+
+console.log(rabbit.name);
+console.log(rabbit.age);
+console.log(rabbit.runspeed)
+*/
+
+/*
+//callback
+  //a function passed as  an argument to another function
+
+  //ensure that function is not going to run before task is compeleted
+  //help us devlops asnchronous code
+
+  sum(2,3,displaydom)
+
+  function sum(x,y,call){
+    let result=x+y;
+    call(result);
+  }
+
+  function displayconsole(output){
+    console.log(output);
+
+  }
+
+  function displaydom(output){
+     document.getElementById('mylabel').innerHTML=(output)
+  }
+  */
+
+//asynchronous
+   
 
