@@ -454,6 +454,7 @@ amar.hide();
 */
 
 
+
 /*
 //static
 class Car{
@@ -470,6 +471,7 @@ const car4=new Car("must")
 
 console.log(Car.numberofcar)
 */
+
 
 
 /*
@@ -510,6 +512,8 @@ console.log(rabbit.age);
 console.log(rabbit.runspeed)
 */
 
+
+
 /*
 //callback
   //a function passed as  an argument to another function
@@ -534,6 +538,39 @@ console.log(rabbit.runspeed)
   }
   */
 
-//asynchronous
-   
 
+/*
+//clock program
+
+const mylabel=document.getElementById("mylabel")
+
+update();
+setInterval(update,1000)
+
+function update(){
+    let date=new Date();
+    mylabel.innerHTML=formattime(date);
+
+    function formattime(date){
+        let hours=date.getHours();
+        let minutes=date.getMinutes();
+        let seconds=date.getSeconds();
+
+        let AMorPM=hours>=12?"pm":"am";
+
+        hours=formatzero(hours);
+        minutes=formatzero(minutes);
+        seconds=formatzero(seconds);
+        
+        return `${hours}:${minutes}:${seconds}  ${AMorPM}`
+    }
+    function formatzero(time){
+        time=time.toString();
+        return time.length<2? "0" +time:time;
+    }
+
+}
+*/
+
+
+//asynchronous
