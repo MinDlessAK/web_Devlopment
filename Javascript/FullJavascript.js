@@ -650,19 +650,59 @@ wait(3000).then(()=>console.log("Thanks for waiting"))
 */
 
 
+/*
 //async = makes a function return a promise
 
-const promise= new Promise((resolve,reject)=>{
+async function loadfile(){
     let fileloaded=true;
 
-   if(fileloaded){
-       resolve("File loaded")
-   }
-   else{
-    reject("File NOT loaded")
-   }
-
-
-})
-promise.then(value=>console.log(value))
+    if(fileloaded){
+        return ("File loaded")
+    }
+    else{
+     throw ("File NOT loaded")
+    }
+}
+loadfile().then(value=>console.log(value))
        .catch (error => console.log(error))
+
+//making simple function return promise
+
+function load(){
+    let fileloaded;
+
+    if(fileloaded){
+       return  Promise.resolve("File loaded")
+    }
+    else{
+     return Promise.reject("File NOT loaded")
+    }
+}
+load().then(value=>console.log(value))
+       .catch (error => console.log(error))
+
+*/
+
+//await=makes async function wait for promise
+async function loadfile(){
+    let fileloaded=true;
+
+    if(fileloaded){
+        return ("File loaded")
+    }
+    else{
+     throw ("File NOT loaded")
+    }
+}
+
+async function startprocess(){
+    try{
+        let message=await loadfile();
+        console.log(message)
+    }
+    catch(error){
+        console.log(error);
+    }
+}
+startprocess();
+
