@@ -683,6 +683,7 @@ load().then(value=>console.log(value))
 
 */
 
+/*
 //await=makes async function wait for promise
 async function loadfile(){
     let fileloaded=true;
@@ -706,3 +707,4 @@ async function startprocess(){
 }
 startprocess();
 
+*/
