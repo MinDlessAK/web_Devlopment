@@ -573,4 +573,96 @@ function update(){
 */
 
 
+
+/*
 //asynchronous
+
+
+  //synchronous code = In an ordered sequence.
+//                     step-by-step linear  instructions
+//                      (start now, finish now)
+//asynchronous code = Out of sequence.
+//                    ex. Access a database.
+//                        fetch a file.
+//                        tasks that take time.
+//                        (start now, finish sometime later)
+
+//example synchronous
+console.log("START")
+console.log("this is synchronous")
+console.log("END")
+
+//example asynchronous
+console.log("START")
+setTimeout(()=>console.log("This is asynchronous"),5000)
+console.log("END")
+
+*/
+
+/*
+
+//console.time()=Start a timer you can use 
+//               track how long a operation takes 
+//               give each timer a unique name
+
+//start
+console.time("Response time");
+
+alert("click ok button")
+setTimeout(()=>console.log("hello"),3000)
+
+//end
+console.timeEnd("Response time")
+
+*/
+
+/*
+//promises = object that encapsulates the resulte of anynchronous opreation
+//            let asynchronous method return value like synchronous methods
+//            "i promise to return something in the future"
+
+//            the State is 'pending' then:'fullfilled' or 'rejected'
+//             the Result is what can be returned
+//              2 parts producing & consuming
+
+
+// const promise= new Promise((resolve,reject)=>{
+//     let fileloaded=true;
+
+//    if(fileloaded){
+//        resolve("File loaded")
+//    }
+//    else{
+//     reject("File NOT loaded")
+//    }
+
+
+// })
+// promise.then(value=>console.log(value))
+//        .catch (error => console.log(error))
+
+
+const wait = time => new Promise(complete=>{
+    setTimeout(complete,time);
+})
+
+wait(3000).then(()=>console.log("Thanks for waiting"))
+*/
+
+
+//async = makes a function return a promise
+
+const promise= new Promise((resolve,reject)=>{
+    let fileloaded=true;
+
+   if(fileloaded){
+       resolve("File loaded")
+   }
+   else{
+    reject("File NOT loaded")
+   }
+
+
+})
+promise.then(value=>console.log(value))
+       .catch (error => console.log(error))
